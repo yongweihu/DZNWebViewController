@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A969C9EE1E53178F00A49571 /* DZNWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A969C9EC1E53178F00A49571 /* DZNWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A969CA1C1E5317CA00A49571 /* DZNPolyActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = A969C9F61E5317CA00A49571 /* DZNPolyActivity.h */; };
+		A969CA1D1E5317CA00A49571 /* DZNPolyActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A969C9F71E5317CA00A49571 /* DZNPolyActivity.m */; };
+		A969CA1E1E5317CA00A49571 /* DZNWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = A969C9F81E5317CA00A49571 /* DZNWebView.h */; };
+		A969CA1F1E5317CA00A49571 /* DZNWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A969C9F91E5317CA00A49571 /* DZNWebView.m */; };
+		A969CA201E5317CA00A49571 /* DZNWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A969C9FA1E5317CA00A49571 /* DZNWebViewController.h */; };
+		A969CA211E5317CA00A49571 /* DZNWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A969C9FB1E5317CA00A49571 /* DZNWebViewController.m */; };
+		A969CA221E5317CA00A49571 /* DZNWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = A969C9FD1E5317CA00A49571 /* DZNWebViewController.strings */; };
+		A969CA231E5317CA00A49571 /* dzn_icn_activity_chrome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969C9FF1E5317CA00A49571 /* dzn_icn_activity_chrome@2x.png */; };
+		A969CA241E5317CA00A49571 /* dzn_icn_activity_chrome@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA001E5317CA00A49571 /* dzn_icn_activity_chrome@2x~ipad.png */; };
+		A969CA251E5317CA00A49571 /* dzn_icn_activity_dolphin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA011E5317CA00A49571 /* dzn_icn_activity_dolphin@2x.png */; };
+		A969CA261E5317CA00A49571 /* dzn_icn_activity_dolphin@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA021E5317CA00A49571 /* dzn_icn_activity_dolphin@2x~ipad.png */; };
+		A969CA271E5317CA00A49571 /* dzn_icn_activity_link@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA031E5317CA00A49571 /* dzn_icn_activity_link@2x.png */; };
+		A969CA281E5317CA00A49571 /* dzn_icn_activity_link@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA041E5317CA00A49571 /* dzn_icn_activity_link@2x~ipad.png */; };
+		A969CA291E5317CA00A49571 /* dzn_icn_activity_opera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA051E5317CA00A49571 /* dzn_icn_activity_opera@2x.png */; };
+		A969CA2A1E5317CA00A49571 /* dzn_icn_activity_opera@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA061E5317CA00A49571 /* dzn_icn_activity_opera@2x~ipad.png */; };
+		A969CA2B1E5317CA00A49571 /* dzn_icn_activity_safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA071E5317CA00A49571 /* dzn_icn_activity_safari@2x.png */; };
+		A969CA2C1E5317CA00A49571 /* dzn_icn_activity_safari@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA081E5317CA00A49571 /* dzn_icn_activity_safari@2x~ipad.png */; };
+		A969CA2D1E5317CA00A49571 /* dzn_icn_toolbar_action.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA091E5317CA00A49571 /* dzn_icn_toolbar_action.png */; };
+		A969CA2E1E5317CA00A49571 /* dzn_icn_toolbar_action@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA0A1E5317CA00A49571 /* dzn_icn_toolbar_action@2x.png */; };
+		A969CA2F1E5317CA00A49571 /* dzn_icn_toolbar_action@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA0B1E5317CA00A49571 /* dzn_icn_toolbar_action@3x.png */; };
+		A969CA301E5317CA00A49571 /* dzn_icn_toolbar_backward.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA0C1E5317CA00A49571 /* dzn_icn_toolbar_backward.png */; };
+		A969CA311E5317CA00A49571 /* dzn_icn_toolbar_backward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA0D1E5317CA00A49571 /* dzn_icn_toolbar_backward@2x.png */; };
+		A969CA321E5317CA00A49571 /* dzn_icn_toolbar_backward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA0E1E5317CA00A49571 /* dzn_icn_toolbar_backward@3x.png */; };
+		A969CA331E5317CA00A49571 /* dzn_icn_toolbar_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA0F1E5317CA00A49571 /* dzn_icn_toolbar_forward.png */; };
+		A969CA341E5317CA00A49571 /* dzn_icn_toolbar_forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA101E5317CA00A49571 /* dzn_icn_toolbar_forward@2x.png */; };
+		A969CA351E5317CA00A49571 /* dzn_icn_toolbar_forward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA111E5317CA00A49571 /* dzn_icn_toolbar_forward@3x.png */; };
+		A969CA361E5317CA00A49571 /* dzn_icn_toolbar_reload.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA121E5317CA00A49571 /* dzn_icn_toolbar_reload.png */; };
+		A969CA371E5317CA00A49571 /* dzn_icn_toolbar_reload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA131E5317CA00A49571 /* dzn_icn_toolbar_reload@2x.png */; };
+		A969CA381E5317CA00A49571 /* dzn_icn_toolbar_reload@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA141E5317CA00A49571 /* dzn_icn_toolbar_reload@3x.png */; };
+		A969CA391E5317CA00A49571 /* dzn_icn_toolbar_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA151E5317CA00A49571 /* dzn_icn_toolbar_stop.png */; };
+		A969CA3A1E5317CB00A49571 /* dzn_icn_toolbar_stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA161E5317CA00A49571 /* dzn_icn_toolbar_stop@2x.png */; };
+		A969CA3B1E5317CB00A49571 /* dzn_icn_toolbar_stop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A969CA171E5317CA00A49571 /* dzn_icn_toolbar_stop@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A969C9E91E53178F00A49571 /* DZNWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZNWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A969C9EC1E53178F00A49571 /* DZNWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZNWebViewController.h; sourceTree = "<group>"; };
+		A969C9ED1E53178F00A49571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A969C9F61E5317CA00A49571 /* DZNPolyActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNPolyActivity.h; sourceTree = "<group>"; };
+		A969C9F71E5317CA00A49571 /* DZNPolyActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNPolyActivity.m; sourceTree = "<group>"; };
+		A969C9F81E5317CA00A49571 /* DZNWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNWebView.h; sourceTree = "<group>"; };
+		A969C9F91E5317CA00A49571 /* DZNWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNWebView.m; sourceTree = "<group>"; };
+		A969C9FA1E5317CA00A49571 /* DZNWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNWebViewController.h; sourceTree = "<group>"; };
+		A969C9FB1E5317CA00A49571 /* DZNWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNWebViewController.m; sourceTree = "<group>"; };
+		A969C9FE1E5317CA00A49571 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/DZNWebViewController.strings; sourceTree = "<group>"; };
+		A969C9FF1E5317CA00A49571 /* dzn_icn_activity_chrome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_chrome@2x.png"; sourceTree = "<group>"; };
+		A969CA001E5317CA00A49571 /* dzn_icn_activity_chrome@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_chrome@2x~ipad.png"; sourceTree = "<group>"; };
+		A969CA011E5317CA00A49571 /* dzn_icn_activity_dolphin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_dolphin@2x.png"; sourceTree = "<group>"; };
+		A969CA021E5317CA00A49571 /* dzn_icn_activity_dolphin@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_dolphin@2x~ipad.png"; sourceTree = "<group>"; };
+		A969CA031E5317CA00A49571 /* dzn_icn_activity_link@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_link@2x.png"; sourceTree = "<group>"; };
+		A969CA041E5317CA00A49571 /* dzn_icn_activity_link@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_link@2x~ipad.png"; sourceTree = "<group>"; };
+		A969CA051E5317CA00A49571 /* dzn_icn_activity_opera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_opera@2x.png"; sourceTree = "<group>"; };
+		A969CA061E5317CA00A49571 /* dzn_icn_activity_opera@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_opera@2x~ipad.png"; sourceTree = "<group>"; };
+		A969CA071E5317CA00A49571 /* dzn_icn_activity_safari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_safari@2x.png"; sourceTree = "<group>"; };
+		A969CA081E5317CA00A49571 /* dzn_icn_activity_safari@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_activity_safari@2x~ipad.png"; sourceTree = "<group>"; };
+		A969CA091E5317CA00A49571 /* dzn_icn_toolbar_action.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dzn_icn_toolbar_action.png; sourceTree = "<group>"; };
+		A969CA0A1E5317CA00A49571 /* dzn_icn_toolbar_action@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_action@2x.png"; sourceTree = "<group>"; };
+		A969CA0B1E5317CA00A49571 /* dzn_icn_toolbar_action@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_action@3x.png"; sourceTree = "<group>"; };
+		A969CA0C1E5317CA00A49571 /* dzn_icn_toolbar_backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dzn_icn_toolbar_backward.png; sourceTree = "<group>"; };
+		A969CA0D1E5317CA00A49571 /* dzn_icn_toolbar_backward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_backward@2x.png"; sourceTree = "<group>"; };
+		A969CA0E1E5317CA00A49571 /* dzn_icn_toolbar_backward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_backward@3x.png"; sourceTree = "<group>"; };
+		A969CA0F1E5317CA00A49571 /* dzn_icn_toolbar_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dzn_icn_toolbar_forward.png; sourceTree = "<group>"; };
+		A969CA101E5317CA00A49571 /* dzn_icn_toolbar_forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_forward@2x.png"; sourceTree = "<group>"; };
+		A969CA111E5317CA00A49571 /* dzn_icn_toolbar_forward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_forward@3x.png"; sourceTree = "<group>"; };
+		A969CA121E5317CA00A49571 /* dzn_icn_toolbar_reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dzn_icn_toolbar_reload.png; sourceTree = "<group>"; };
+		A969CA131E5317CA00A49571 /* dzn_icn_toolbar_reload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_reload@2x.png"; sourceTree = "<group>"; };
+		A969CA141E5317CA00A49571 /* dzn_icn_toolbar_reload@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_reload@3x.png"; sourceTree = "<group>"; };
+		A969CA151E5317CA00A49571 /* dzn_icn_toolbar_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dzn_icn_toolbar_stop.png; sourceTree = "<group>"; };
+		A969CA161E5317CA00A49571 /* dzn_icn_toolbar_stop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_stop@2x.png"; sourceTree = "<group>"; };
+		A969CA171E5317CA00A49571 /* dzn_icn_toolbar_stop@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dzn_icn_toolbar_stop@3x.png"; sourceTree = "<group>"; };
+		A969CA181E5317CA00A49571 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DZNWebViewController.strings; sourceTree = "<group>"; };
+		A969CA191E5317CA00A49571 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/DZNWebViewController.strings; sourceTree = "<group>"; };
+		A969CA1A1E5317CA00A49571 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DZNWebViewController.strings"; sourceTree = "<group>"; };
+		A969CA1B1E5317CA00A49571 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DZNWebViewController.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A969C9E51E53178F00A49571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A969C9DF1E53178F00A49571 = {
+			isa = PBXGroup;
+			children = (
+				A969C9EB1E53178F00A49571 /* DZNWebViewController */,
+				A969C9EA1E53178F00A49571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A969C9EA1E53178F00A49571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A969C9E91E53178F00A49571 /* DZNWebViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A969C9EB1E53178F00A49571 /* DZNWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A969C9F41E5317CA00A49571 /* Source */,
+				A969C9EC1E53178F00A49571 /* DZNWebViewController.h */,
+				A969C9ED1E53178F00A49571 /* Info.plist */,
+			);
+			path = DZNWebViewController;
+			sourceTree = "<group>";
+		};
+		A969C9F41E5317CA00A49571 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A969C9F51E5317CA00A49571 /* Classes */,
+				A969C9FC1E5317CA00A49571 /* Resources */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		A969C9F51E5317CA00A49571 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A969C9F61E5317CA00A49571 /* DZNPolyActivity.h */,
+				A969C9F71E5317CA00A49571 /* DZNPolyActivity.m */,
+				A969C9F81E5317CA00A49571 /* DZNWebView.h */,
+				A969C9F91E5317CA00A49571 /* DZNWebView.m */,
+				A969C9FA1E5317CA00A49571 /* DZNWebViewController.h */,
+				A969C9FB1E5317CA00A49571 /* DZNWebViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A969C9FC1E5317CA00A49571 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A969C9FD1E5317CA00A49571 /* DZNWebViewController.strings */,
+				A969C9FF1E5317CA00A49571 /* dzn_icn_activity_chrome@2x.png */,
+				A969CA001E5317CA00A49571 /* dzn_icn_activity_chrome@2x~ipad.png */,
+				A969CA011E5317CA00A49571 /* dzn_icn_activity_dolphin@2x.png */,
+				A969CA021E5317CA00A49571 /* dzn_icn_activity_dolphin@2x~ipad.png */,
+				A969CA031E5317CA00A49571 /* dzn_icn_activity_link@2x.png */,
+				A969CA041E5317CA00A49571 /* dzn_icn_activity_link@2x~ipad.png */,
+				A969CA051E5317CA00A49571 /* dzn_icn_activity_opera@2x.png */,
+				A969CA061E5317CA00A49571 /* dzn_icn_activity_opera@2x~ipad.png */,
+				A969CA071E5317CA00A49571 /* dzn_icn_activity_safari@2x.png */,
+				A969CA081E5317CA00A49571 /* dzn_icn_activity_safari@2x~ipad.png */,
+				A969CA091E5317CA00A49571 /* dzn_icn_toolbar_action.png */,
+				A969CA0A1E5317CA00A49571 /* dzn_icn_toolbar_action@2x.png */,
+				A969CA0B1E5317CA00A49571 /* dzn_icn_toolbar_action@3x.png */,
+				A969CA0C1E5317CA00A49571 /* dzn_icn_toolbar_backward.png */,
+				A969CA0D1E5317CA00A49571 /* dzn_icn_toolbar_backward@2x.png */,
+				A969CA0E1E5317CA00A49571 /* dzn_icn_toolbar_backward@3x.png */,
+				A969CA0F1E5317CA00A49571 /* dzn_icn_toolbar_forward.png */,
+				A969CA101E5317CA00A49571 /* dzn_icn_toolbar_forward@2x.png */,
+				A969CA111E5317CA00A49571 /* dzn_icn_toolbar_forward@3x.png */,
+				A969CA121E5317CA00A49571 /* dzn_icn_toolbar_reload.png */,
+				A969CA131E5317CA00A49571 /* dzn_icn_toolbar_reload@2x.png */,
+				A969CA141E5317CA00A49571 /* dzn_icn_toolbar_reload@3x.png */,
+				A969CA151E5317CA00A49571 /* dzn_icn_toolbar_stop.png */,
+				A969CA161E5317CA00A49571 /* dzn_icn_toolbar_stop@2x.png */,
+				A969CA171E5317CA00A49571 /* dzn_icn_toolbar_stop@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A969C9E61E53178F00A49571 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A969CA1E1E5317CA00A49571 /* DZNWebView.h in Headers */,
+				A969CA201E5317CA00A49571 /* DZNWebViewController.h in Headers */,
+				A969CA1C1E5317CA00A49571 /* DZNPolyActivity.h in Headers */,
+				A969C9EE1E53178F00A49571 /* DZNWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A969C9E81E53178F00A49571 /* DZNWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A969C9F11E53178F00A49571 /* Build configuration list for PBXNativeTarget "DZNWebViewController" */;
+			buildPhases = (
+				A969C9E41E53178F00A49571 /* Sources */,
+				A969C9E51E53178F00A49571 /* Frameworks */,
+				A969C9E61E53178F00A49571 /* Headers */,
+				A969C9E71E53178F00A49571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZNWebViewController;
+			productName = DZNWebViewController;
+			productReference = A969C9E91E53178F00A49571 /* DZNWebViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A969C9E01E53178F00A49571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yongwei Hu";
+				TargetAttributes = {
+					A969C9E81E53178F00A49571 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CFXE2VAEXJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A969C9E31E53178F00A49571 /* Build configuration list for PBXProject "DZNWebViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				es,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = A969C9DF1E53178F00A49571;
+			productRefGroup = A969C9EA1E53178F00A49571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A969C9E81E53178F00A49571 /* DZNWebViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A969C9E71E53178F00A49571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A969CA2A1E5317CA00A49571 /* dzn_icn_activity_opera@2x~ipad.png in Resources */,
+				A969CA3B1E5317CB00A49571 /* dzn_icn_toolbar_stop@3x.png in Resources */,
+				A969CA321E5317CA00A49571 /* dzn_icn_toolbar_backward@3x.png in Resources */,
+				A969CA311E5317CA00A49571 /* dzn_icn_toolbar_backward@2x.png in Resources */,
+				A969CA2D1E5317CA00A49571 /* dzn_icn_toolbar_action.png in Resources */,
+				A969CA2C1E5317CA00A49571 /* dzn_icn_activity_safari@2x~ipad.png in Resources */,
+				A969CA301E5317CA00A49571 /* dzn_icn_toolbar_backward.png in Resources */,
+				A969CA2F1E5317CA00A49571 /* dzn_icn_toolbar_action@3x.png in Resources */,
+				A969CA2B1E5317CA00A49571 /* dzn_icn_activity_safari@2x.png in Resources */,
+				A969CA2E1E5317CA00A49571 /* dzn_icn_toolbar_action@2x.png in Resources */,
+				A969CA241E5317CA00A49571 /* dzn_icn_activity_chrome@2x~ipad.png in Resources */,
+				A969CA341E5317CA00A49571 /* dzn_icn_toolbar_forward@2x.png in Resources */,
+				A969CA361E5317CA00A49571 /* dzn_icn_toolbar_reload.png in Resources */,
+				A969CA351E5317CA00A49571 /* dzn_icn_toolbar_forward@3x.png in Resources */,
+				A969CA291E5317CA00A49571 /* dzn_icn_activity_opera@2x.png in Resources */,
+				A969CA221E5317CA00A49571 /* DZNWebViewController.strings in Resources */,
+				A969CA391E5317CA00A49571 /* dzn_icn_toolbar_stop.png in Resources */,
+				A969CA251E5317CA00A49571 /* dzn_icn_activity_dolphin@2x.png in Resources */,
+				A969CA3A1E5317CB00A49571 /* dzn_icn_toolbar_stop@2x.png in Resources */,
+				A969CA381E5317CA00A49571 /* dzn_icn_toolbar_reload@3x.png in Resources */,
+				A969CA281E5317CA00A49571 /* dzn_icn_activity_link@2x~ipad.png in Resources */,
+				A969CA271E5317CA00A49571 /* dzn_icn_activity_link@2x.png in Resources */,
+				A969CA331E5317CA00A49571 /* dzn_icn_toolbar_forward.png in Resources */,
+				A969CA261E5317CA00A49571 /* dzn_icn_activity_dolphin@2x~ipad.png in Resources */,
+				A969CA231E5317CA00A49571 /* dzn_icn_activity_chrome@2x.png in Resources */,
+				A969CA371E5317CA00A49571 /* dzn_icn_toolbar_reload@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A969C9E41E53178F00A49571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A969CA211E5317CA00A49571 /* DZNWebViewController.m in Sources */,
+				A969CA1F1E5317CA00A49571 /* DZNWebView.m in Sources */,
+				A969CA1D1E5317CA00A49571 /* DZNPolyActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A969C9FD1E5317CA00A49571 /* DZNWebViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A969C9FE1E5317CA00A49571 /* de */,
+				A969CA181E5317CA00A49571 /* en */,
+				A969CA191E5317CA00A49571 /* es */,
+				A969CA1A1E5317CA00A49571 /* zh-Hans */,
+				A969CA1B1E5317CA00A49571 /* zh-Hant */,
+			);
+			name = DZNWebViewController.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A969C9EF1E53178F00A49571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A969C9F01E53178F00A49571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A969C9F21E53178F00A49571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CFXE2VAEXJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DZNWebViewController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuehu.DZNWebViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A969C9F31E53178F00A49571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CFXE2VAEXJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DZNWebViewController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuehu.DZNWebViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A969C9E31E53178F00A49571 /* Build configuration list for PBXProject "DZNWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A969C9EF1E53178F00A49571 /* Debug */,
+				A969C9F01E53178F00A49571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A969C9F11E53178F00A49571 /* Build configuration list for PBXNativeTarget "DZNWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A969C9F21E53178F00A49571 /* Debug */,
+				A969C9F31E53178F00A49571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A969C9E01E53178F00A49571 /* Project object */;
+}
